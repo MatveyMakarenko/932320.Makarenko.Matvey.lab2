@@ -1,0 +1,78 @@
+:root {
+    /* Яркие и светлые тона */
+    --color-light-green: #C8FC98;     /* Мягкий, свежий зеленый */
+    --color-light-gray: #EAEAEA;      /* Очень светлый серый (почти белый) */
+    --color-light-yellow: #FFFF80;    /* Очень светлый, почти белый желтый */
+    --color-soft-yellow: #FDE95E;     /* Теплый, нежный желтый (как лимонад) */
+  
+    /* Стандартные базовые цвета */
+    --color-red: red;
+    --color-blue: blue;
+    --color-green: green;
+    --color-violet: blueviolet;       /* Фиолетово-синий */
+    --color-dark-red: darkred;        /* Тёмно-красный, глубокий */
+    --color-peach: peru;              /* Тёплый коричнево-оранжевый (как персик) */
+    --color-forest: forestgreen;      /* Глубокий лесной зелёный */
+    --color-burnt-red: indianred;     /* Приглушённый красно-коричневый */
+    --color-indigo: indigo;           /* Темно-сине-фиолетовый */
+    --color-white: white;
+    --color-aqua: aqua;               /* Бирюзово-голубой */
+    --color-bisque: bisque;           /* Нежно-кремовый, слегка розоватый */
+    --color-dark-gray: darkgray;      /* Серый для текста/фонов */
+    --color-lime: limegreen;          /* Яркий, кислотный зелёный */
+    --color-aquamarine: aquamarine;   /* Бирюзовый, как морская волна */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    line-height: 1.6;
+    color: #000;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--color-light-gray);
+    padding-bottom: 50px;
+}
+header h1{
+    padding-left: 8px;
+    /* font-weight: normal; */
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.left-column {
+    width: 25%; 
+    padding: 0 8px;
+    height: 100%;
+    background-color: #ccff99;
+}
+
+.content {
+    flex: 1;
+    padding: 5px;
+}
+
+.right-column{
+    width: 200px;
+    background-color: var(--color-soft-yellow);
+    padding: 0 8px;
+}
+
+
+footer {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
