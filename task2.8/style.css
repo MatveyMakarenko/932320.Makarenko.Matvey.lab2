@@ -13,6 +13,8 @@
 
 .list{
     background-color: bisque;
+    width: 17%;
+    height: 100%;
 }
 
 .text{
@@ -28,4 +30,11 @@ footer{
     background-color: limegreen;
     bottom: 0;
     left: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .list {
+    width: 30%;
+  }
+
 }
