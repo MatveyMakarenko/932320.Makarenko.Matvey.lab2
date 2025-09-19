@@ -15,11 +15,6 @@
     background-color: bisque;
 }
 
-.bottom{
-    background-color: aqua;
-    flex: 1;
-}
-
 .text{
     flex: 1;
     background-color: darkgrey;
